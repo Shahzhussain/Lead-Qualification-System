@@ -53,7 +53,7 @@ const DEFAULT_CLIENT = "skyline_realty";
 // Get this from console.cloud.google.com -> APIs & Services -> Credentials.
 // Also enable the "Google Sheets API" for your project, and share each
 // client's sheet as "Anyone with the link: Viewer".
-const GOOGLE_SHEETS_API_KEY = "AIzaSyDfi3nrIhTWQT7-o8xR0tJZ4WELDvNHkKw";
+const GOOGLE_SHEETS_API_KEY = process.env.REACT_APP_GOOGLE_SHEETS_API_KEY || "YOUR_GOOGLE_SHEETS_API_KEY";
 
 function useClientFromUrl() {
   const [clientId, setClientId] = useState(DEFAULT_CLIENT);
