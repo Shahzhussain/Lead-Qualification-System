@@ -285,7 +285,7 @@ function TraceLine({ delay, text }) {
 function DashboardView({ config }) {
   const [filter, setFilter] = useState("all");
   const [query, setQuery] = useState("");
-  const [sortBy, setSortBy] = useState("score");
+  const [sortBy] = useState("score");
   const [liveRows, setLiveRows] = useState(null);
   const [usingLiveData, setUsingLiveData] = useState(false);
 
