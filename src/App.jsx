@@ -18,7 +18,8 @@ const CLIENTS = {
       "e.g. 3 bed apartment in DHA, budget around 20M, looking to move within a month",
     accent: "#B8674D",
     hot_threshold: 70,
-    webhook_url: "https://dividers-engraved-hypnosis.ngrok-free.dev/webhook/57ae595d-d7a4-47a9-8e2d-430c4f5f3f20",
+    // webhook_url: "https://dividers-engraved-hypnosis.ngrok-free.dev/webhook/57ae595d-d7a4-47a9-8e2d-430c4f5f3f20" ,
+    webhook_url: "http://localhost:5678/webhook/57ae595d-d7a4-47a9-8e2d-430c4f5f3f20",
     sheet_id: "1AT1PrdPCd74Kku_BBXwW5k3BYDDXnUsKEQBOx6QiS_M",
     sample: [
       { name: "Ahmed Khan", email: "ahmed@example.com", phone: "0300 1234567", score: 90, status: "hot", reason: "Mentioned budget above 15M, clear timeline, asked about a specific property.", time: "2 min ago" },
@@ -39,7 +40,8 @@ const CLIENTS = {
       "e.g. tooth pain on lower left side for 2 days, looking for the earliest appointment",
     accent: "#5B7C99",
     hot_threshold: 60,
-    webhook_url: "https://dividers-engraved-hypnosis.ngrok-free.dev/webhook/57ae595d-d7a4-47a9-8e2d-430c4f5f3f20",
+   // webhook_url: "https://dividers-engraved-hypnosis.ngrok-free.dev/webhook/57ae595d-d7a4-47a9-8e2d-430c4f5f3f20" ,
+    webhook_url: "http://localhost:5678/webhook/57ae595d-d7a4-47a9-8e2d-430c4f5f3f20",
     sheet_id: "YOUR_DENTAL_SHEET_ID",
     sample: [
       { name: "Fatima Noor", email: "fatima.n@example.com", phone: "0312 5566778", score: 85, status: "hot", reason: "Mentioned tooth pain and asked for earliest available appointment.", time: "12 min ago" },
